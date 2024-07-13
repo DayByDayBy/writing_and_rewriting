@@ -14,17 +14,13 @@ secondary_model = 'llama3'
 tertiary_model = 'llama3'
 analysis_model = 'llama3'
 
-
 # starting with one fairly silly, basic prompt for testing purposes, 
 # eventual prompt will be more complex, possibly stored differently
 
 initial_prompt = 'write me a short but persuasive letter extolling the virtues of using large language models for writing letters'
 
-
 cv = './info/cv.txt'
 # jd = '.info/jd/txt'
-
-
 
 def generate_new_text():
     response = ollama.generate(model=primary_model, prompt = initial_prompt)    
@@ -34,7 +30,6 @@ def generate_new_text():
         file.write(initial_prompt + "\n\n")
         file.write(f"response: {response['response']}\n\n")
         
-
 if __name__ == '__main__':
 
     print('\n')
@@ -43,4 +38,4 @@ if __name__ == '__main__':
     print('\n')
     print('letter generated')
     
-# nice basic print formatting, likely uneccessary once the other parts are built
+# nice basic print formatting, likely uneccessary once the other parts are built, but handy fpr debug etc
