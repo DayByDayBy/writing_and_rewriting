@@ -6,7 +6,7 @@ from datetime import datetime
 
 time_stamp = datetime.now().strftime("%Y%m%d_%H%M")
 
-# several model options, even tho they are the same for now, so we can lean 
+# several model options even tho they are the same for now, so i can lean 
 # on various models strengths/weaknesses to get nmore useful/intersting results
 
 primary_model = 'llama3'
