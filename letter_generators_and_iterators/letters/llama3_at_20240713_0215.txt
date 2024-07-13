@@ -1,0 +1,18 @@
+initial prompt: 
+write me a short but persuasive letter extolling the virtues of using large language models for writing letters
+
+response: Dear [Recipient],
+
+As you sit down to craft your next letter, I implore you: consider harnessing the power of large language models. These AI-driven wonders are revolutionizing the art of letter-writing, and for good reason.
+
+With a vast repository of linguistic knowledge at their disposal, large language models can help you craft letters that are not only well-written but also infused with nuance, wit, and emotional depth. They can suggest clever turns of phrase, clever allusions, and even offer helpful critiques to refine your writing.
+
+But it's not just about the quality of your prose; using a large language model can also save you time and mental energy. No longer must you spend hours brainstorming ideas or struggling to find the right words. Let the model do the heavy lifting for you, freeing up your creative juices to focus on the substance and emotion behind your words.
+
+Furthermore, large language models are increasingly adept at capturing the unique tone and voice of each writer. They can help you infuse your letters with a level of personality and authenticity that might be difficult to achieve through traditional means alone.
+
+So why not give it a try? Let the power of large language models augment your writing skills and take your letter-writing to new heights. Trust me, your readers – and yourself – will thank you for it.
+
+Sincerely,
+[Your Name]
+
