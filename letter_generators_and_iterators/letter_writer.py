@@ -18,30 +18,38 @@ analysis_model = 'llama3'
 # eventual prompt will be more complex, possibly stored differently
 
 initial_prompt = """write me a short but persuasive letter extolling the virtues of using large language models for writing letters. 
-to help you, here is an example of a previous attempt that was scored 7/25:
+to help you, here is an example of a previous attempt that was scored 9/25:
 
 Dear [Recipient],
 
-As you sit down to craft your next masterpiece in epistolary form, I implore you: don't settle for anything less than the best. Abandon the limitations of human cognition and tap into the limitless potential of large language models. These magnificent tools are not just clever tricks or gimmicks – they're game-changers.
+Imagine being able to craft letters that not only convey your ideas with precision but also resonate with your audience on a deeper level. Letters that are infused with creativity, flair, and a hint of personality. This is no longer the stuff of imagination, thanks to the advent of large language models.
 
-With a large language model by your side, every letter becomes a testament to the power of precision and persuasion. The algorithms can help you distill complex ideas into crystalline clarity, crafting sentences that flow like molten silver and riveting attention like a magnet. No longer will you struggle with writer's block or worry about embarrassing typos – the model has your back.
+These powerful tools have the potential to revolutionize the art of letter-writing, allowing you to tap into a vast repository of knowledge, inspiration, and linguistic expertise. With a large language model by your side, every letter becomes an opportunity to showcase your unique voice, perspective, and passion.
 
-But that's just the beginning. Large language models grant you access to an unparalleled repository of knowledge, inspiration, and creativity. Need to build a compelling case? The model can draw upon centuries of historical precedent, scientific research, and literary masterworks to furnish you with a treasure trove of relevant examples and analogies. Want to surprise your recipient with some dazzling wordplay or clever allusions? The model is the ultimate font of inspiration, familiar with the latest memes, pop culture references, and linguistic innovations.
+The benefits are twofold. Firstly, these models can help you overcome the most common hurdles in writing – finding the right words, structuring your thoughts, and avoiding errors. No longer will you struggle with writer's block or worry about embarrassing typos. The model's algorithms will guide you through the process, ensuring that your letter is polished, engaging, and error-free.
 
-And let's not forget about time – or rather, the freedom it brings. As we all know, finding the time to write a letter can be a challenge in today's fast-paced world. But with a large language model, you'll never have to sacrifice quality for expediency again. Simply provide the basic framework of your thoughts and ideas, and the model will do the rest – crafting a polished, engaging letter that rivals those of the most skilled writers.
+Secondly, large language models grant you access to a treasure trove of knowledge and inspiration. Need to make a compelling case? The model can draw upon centuries of historical precedent, scientific research, and literary masterworks to furnish you with a wealth of relevant examples and analogies. Want to surprise your recipient with some witty wordplay or clever allusions? The model's got the inside scoop on the latest memes, pop culture references, and linguistic innovations.
 
-In short, using large language models for writing letters is not just a convenience; it's a liberation from the shackles of human limitations. It's an opportunity to elevate your correspondence to new heights, impress your recipients with your erudition and creativity, and free up more time for the things that truly matter in life.
+But here's the thing: using large language models is not just about convenience – it's about elevating your correspondence to new heights. It's an opportunity to connect with your audience on a deeper level, showcase your creativity and flair, and leave a lasting impression. So why settle for ordinary letters when you can craft extraordinary ones?
 
-So why settle for anything less? Give large language models a try today, and discover a whole new world of writing possibilities at your fingertips. You never know – you might just write the letter of a lifetime.
+In short, the benefits of using large language models for writing letters are too compelling to ignore. They offer a game-changing combination of precision, creativity, and convenience that can help you achieve your goals and exceed your expectations.
+
+So why wait? Give large language models a try today, and discover a whole new world of writing possibilities at your fingertips.
 
 Sincerely,
+
 [Your Name]
 
 -----
 
-when scored, it was most downmarked in the 'persuasive' category of the marker's schema. 
+when scored, it was marked down in large part for being too much of a 'sales pitch'.*
 
 endeavour to do better, ideally to achieva score of 20+/25.
+
+*
+in discussion afterwards an idea was considered: as the marking scheme is unkown and teh feedback limited, it is hard to discern the exact reason for the low score. indeed, the task may even have 'hidden' parameters that the client was unable or unwilling to articulate; if so, to excel may require the task to be figured out and then completed, rather than simply completed. of course, it was agreed, the only way to learn more would be through repeat attempts, and comparing failure and sucess.
+
+
 """
 
 cv = './info/cv.txt'
@@ -63,4 +71,4 @@ if __name__ == '__main__':
     print('\n')
     print('letter generated')
     
-# nice basic print formatting, likely uneccessary once the other parts are built, but handy fpr debug etc
+# nice basic print formatting, likely uneccessary once the other parts are built, but handy for debug etc
