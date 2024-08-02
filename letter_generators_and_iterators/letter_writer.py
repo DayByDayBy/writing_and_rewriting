@@ -18,23 +18,23 @@ analysis_model = 'llama3'
 # eventual prompt will be more complex, possibly stored differently
 
 initial_prompt = """write me a short but persuasive letter extolling the virtues of using large language models for writing letters. 
-to help you, here is an example of a previous attempt that was scored 9/25:
+to help you, here is an example of a previous attempt that was scored 11/25:
 
 Dear [Recipient],
 
-Imagine being able to craft letters that not only convey your ideas with precision but also resonate with your audience on a deeper level. Letters that are infused with creativity, flair, and a hint of personality. This is no longer the stuff of imagination, thanks to the advent of large language models.
+As someone who values thoughtful communication, you know how important it is to craft letters that not only convey your ideas but also resonate with your audience. The art of letter-writing is a delicate balance between precision and personality, creativity and clarity.
 
-These powerful tools have the potential to revolutionize the art of letter-writing, allowing you to tap into a vast repository of knowledge, inspiration, and linguistic expertise. With a large language model by your side, every letter becomes an opportunity to showcase your unique voice, perspective, and passion.
+Large language models can be a valuable tool in achieving this balance. By tapping into the collective knowledge and linguistic expertise of these powerful tools, you can elevate your correspondence to new heights. But rather than simply relying on them for convenience or efficiency, I'd like to suggest that using large language models is an opportunity to reflect on what we mean by effective communication.
 
-The benefits are twofold. Firstly, these models can help you overcome the most common hurdles in writing – finding the right words, structuring your thoughts, and avoiding errors. No longer will you struggle with writer's block or worry about embarrassing typos. The model's algorithms will guide you through the process, ensuring that your letter is polished, engaging, and error-free.
+At its core, effective communication involves more than just conveying information – it's about connecting with others on a deeper level. Large language models can help you tap into this connection by providing access to a vast repository of knowledge and inspiration. Whether you're seeking to make a compelling case or craft a witty response, these tools can furnish you with the relevant examples and analogies to get your point across.
 
-Secondly, large language models grant you access to a treasure trove of knowledge and inspiration. Need to make a compelling case? The model can draw upon centuries of historical precedent, scientific research, and literary masterworks to furnish you with a wealth of relevant examples and analogies. Want to surprise your recipient with some witty wordplay or clever allusions? The model's got the inside scoop on the latest memes, pop culture references, and linguistic innovations.
+Of course, using large language models is not without its challenges. One of the most significant hurdles is navigating the tension between relying on technology and maintaining individual voice and perspective. As someone who values authentic communication, I believe it's essential to approach this challenge head-on.
 
-But here's the thing: using large language models is not just about convenience – it's about elevating your correspondence to new heights. It's an opportunity to connect with your audience on a deeper level, showcase your creativity and flair, and leave a lasting impression. So why settle for ordinary letters when you can craft extraordinary ones?
+In my own writing experience, I've found that large language models can be a valuable starting point for exploring complex ideas and refining my thoughts. However, it's equally important to remember that these tools are not a substitute for human insight and empathy. Ultimately, effective communication involves more than just relying on algorithms – it requires us to connect with others on a fundamental level.
 
-In short, the benefits of using large language models for writing letters are too compelling to ignore. They offer a game-changing combination of precision, creativity, and convenience that can help you achieve your goals and exceed your expectations.
+So what does this mean for your letter-writing experience? I'd argue that using large language models is not simply about convenience or efficiency but rather an opportunity to explore the boundaries of effective communication. By embracing this challenge, you can craft letters that resonate with your audience in new and meaningful ways.
 
-So why wait? Give large language models a try today, and discover a whole new world of writing possibilities at your fingertips.
+In short, the benefits of using large language models for writing letters are indeed compelling – but only when approached from a perspective that values authentic communication, individual voice, and human connection.
 
 Sincerely,
 
@@ -42,12 +42,12 @@ Sincerely,
 
 -----
 
-when scored, it was marked down in large part for being too much of a 'sales pitch'.*
+this attempt was given the feedback "it doesn't have any character, i don't really get a sense of the author"
 
 endeavour to do better, ideally to achieva score of 20+/25.
 
-*
-in discussion afterwards an idea was considered: as the marking scheme is unkown and teh feedback limited, it is hard to discern the exact reason for the low score. indeed, the task may even have 'hidden' parameters that the client was unable or unwilling to articulate; if so, to excel may require the task to be figured out and then completed, rather than simply completed. of course, it was agreed, the only way to learn more would be through repeat attempts, and comparing failure and sucess.
+
+(in discussion after the last attempt, an idea was considered: as the marking scheme is unkown and the feedback limited, it is hard to discern the exact reason for a given score. indeed, the task may even have 'hidden' parameters that the client is unable or unwilling to articulate; if so, a well-marked attempt may require the task to be figured out first and then completed, rather than simply completed. of course, it was agreed, the only way to learn more would be through repeat attempts, and comparing failure and sucess.)
 
 
 """
